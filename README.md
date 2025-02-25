@@ -58,9 +58,8 @@ Use esse símbolo para ilustrar onde os documentos são criados, revisados ou ut
 - Não: Imprime "Número é ímpar".
 
 - Fim
-
-  ```batch
-        Início
+```batch
+       Início
            |
        Entrada: Número
            |
@@ -74,8 +73,10 @@ Use esse símbolo para ilustrar onde os documentos são criados, revisados ou ut
     Par"        Ímpar"
    |           |
    Fim         Fim
-          
-   ```
+```
+
+## 2. Fluxograma para Calcular a Fatorial de um Número
+
 
   
 
