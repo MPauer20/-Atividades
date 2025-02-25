@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-02-25 04:53:56 "/>
+        <attribute name="created" value="QWx1bm87IERTTjkxNC1NSUNSTzI1LTsgMjAyNS0wMi0yNTsgMDQ6MDY6MTMgOyAyNjg0"/>
+        <attribute name="edited" value="QWx1bm87IERTTjkxNC1NSUNSTzI1LTsgMjAyNS0wMi0yNTsgMDQ6NTM6NTYgOyAyNjkz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="email" type="String" array="False" size=""/>
+            <input variable="email"/>
+            <output expression="&quot;fale seu nome&quot;"/>
+            <declare name="nome" type="String" array="False" size=""/>
+            <input variable="nome"/>
+            <output expression="&quot;informe sua idade&quot;"/>
+            <declare name="idade" type="Integer" array="False" size=""/>
+            <input variable="idade"/>
+            <if expression="idade &lt; 18">
+                <then>
+                    <output expression="&quot;Voc&#234; n&#227;o tem acesso a este sistema&quot;"/>
+                </then>
+                <else>
+                    <output expression="&quot;Parabens&quot;"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
