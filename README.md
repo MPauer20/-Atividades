@@ -75,8 +75,34 @@ Use esse símbolo para ilustrar onde os documentos são criados, revisados ou ut
    Fim         Fim
 ```
 
-## 2. Fluxograma para Calcular a Fatorial de um Número
+## 2.  Fluxograma para Calcular a Média de Três Números
+Este fluxograma calcula a média de três números fornecidos pelo usuário.
 
+## Início
+
+- Entrada: O usuário fornece três números.
+  
+- Operação: Some os três números.
+  
+- Operação: Divida a soma por 3 para calcular a média.
+  
+- Exibição: Exiba o resultado da média.
+  
+- Fim
+
+``` batch
+Início
+            |
+      Entrada: 3 números
+            |
+   Soma = Número1 + Número2 + Número3
+            |
+   Média = Soma / 3
+            |
+  Exibe Média
+            |
+           Fim
+```
 
   
 
